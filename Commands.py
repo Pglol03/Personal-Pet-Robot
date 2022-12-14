@@ -2,14 +2,14 @@ from Speech import Speak
 from display import wakeup, sleep, dog
 
 def action(Args):
-    if "Lego" in Args:
+    if "Baymax" in Args:
         print("Input recognised")
-        Speak("Hello Avyansh")
+        Speak("Hello User")
         
     elif "wake up" in Args:
         print("Executing command")
         wakeup()
-        Speak("Hi I am Lego, I woke Up")
+        Speak("Hi I am Baymax, I woke Up")
 
     elif "dog" in Args:
         print("Executing command")
