@@ -8,7 +8,7 @@ def listen():
     with m as source:
         #print("Wait")
         r.adjust_for_ambient_noise(source, duration=0.2)
-        #print("say something")
+        print("say something")
         audio = r.listen(source)
         try:
             mytext = r.recognize_google(audio)
