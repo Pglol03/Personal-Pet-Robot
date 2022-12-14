@@ -16,6 +16,8 @@ engine.setProperty('volume',1.0)    # setting up volume level  between 0 and 1
 voices = engine.getProperty('voices')       #getting details of current voice
 engine.setProperty('voice', voices[3].id)  #changing index, changes voices. o for male
 # engine.say("Hello World!")
+# engine.say("Hello I am Baymax")
+# engine.runAndWait()
 def Speak(Text):
     engine.say(Text)
     engine.runAndWait()
