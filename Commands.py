@@ -1,5 +1,6 @@
 from Speech import Speak
 from display import wakeup, sleep, dog
+from Cmd.Cmdline import gsearch
 
 def action(Args):
     if "Baymax" in Args:
@@ -11,10 +12,9 @@ def action(Args):
         wakeup()
         Speak("Hi I am Baymax, I woke Up")
 
-    elif "dog" in Args:
+    elif "search" in Args:
         print("Executing command")
-        dog()
-        Speak("Hi I am Lego, I woke Up")
+        gsearch()
 
     elif "sleep" in Args:
         print("Executing command")

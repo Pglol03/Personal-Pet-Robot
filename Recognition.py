@@ -7,7 +7,7 @@ m = sr.Microphone()
 def listen():
     with m as source:
         #print("Wait")
-        r.adjust_for_ambient_noise(source, duration=0.2)
+        r.adjust_for_ambient_noise(source, duration=0.5)
         print("say something")
         audio = r.listen(source)
         try:

@@ -459,7 +459,7 @@ def main(api_endpoint, credentials, project_id,
             # wait for user trigger if there is no follow-up turn in
             # the conversation.
             wait_for_user_trigger = not continue_conversation
-
+            break
             # If we only want one conversation, break.
             if once and (not continue_conversation):
                 break
