@@ -1,7 +1,7 @@
 import speech_recognition as sr
 import pyttsx3
 
-import queue
+import Vars
 
 r = sr.Recognizer()
 m = sr.Microphone()
@@ -15,7 +15,7 @@ def listen():
         try:
             mytext = r.recognize_google(audio)
             #print("you said "+mytext)
-            queue.enque(mytext)
+            Vars.queue.enque(mytext)
             return mytext
         except sr.UnknownValueError:
             print("Could not understand")
