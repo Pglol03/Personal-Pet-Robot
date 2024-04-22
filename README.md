@@ -1,18 +1,31 @@
 # Personal-Pet-Robot 
-|<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/Images/07-eyes_front.png" alt="RobotEyes.jpg" width="128" height="64" /> |
+<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/Images/07-eyes_front.png" alt="RobotEyes.jpg" width="128" height="64" /> Its Name is ```BAYMAX```
 
-Project Area : Artificial Intelligence, Virtual Assistant, Prompt Engineering, Multi-threading
+Project Area : Artificial Intelligence, Virtual Assistant, Prompt Engineering, Multi-threading, Raspberry Pi
 
 
 ## Author
 
 - [@Pradyun Gayakwad](https://www.github.com/Pglol03)
 
+## Installation
+
+Execute these commands in the project directory terminal.
+
+```bash
+  python3 PPR.py 
+```
+Go [here](./PPR.py) to see the main code
 
 ## Description:
+This project aims to design and implement a personal pet robot using Raspberry Pi that responds to voice commands and moves using motor wheels. The robot consists of a Raspberry Pi, a motor driver, and various sensors such as a microphone and a distance sensor. The Raspberry Pi runs a custom software program and google api’s that enables the robot to recognize voice commands and respond accordingly. The motor driver is employed to govern the locomotion of the robot's wheels, facilitating its movement in various directions and velocities. It also has an oled display that displays custom faces and responds accordingly.
+
+Overall, this project demonstrates the potential of using Raspberry Pi to build personal robots that can interact with their owners and perform basic tasks such as moving and responding to voice commands. Future work could focus on expanding the robot's capabilities to include more complex tasks and interactions.
+
 The whole program runs on queries and multithreading concepts are implemented within its modules with package functions being called in the main function. Altogether there are 12 packages whose descriptions are as follows:
 
 ### Hardware interface packages
+<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/Images/07-eyes_front.png" alt="RobotEyes.jpg" width="128" height="64" />
 
 #### Display.py
 - Used to interface and perform custom animation on the old display attached.
@@ -24,6 +37,7 @@ The whole program runs on queries and multithreading concepts are implemented wi
 - This is the main function the initiates the robot and calls all the necessary functions too that they work together harmoniously.
 
 ### Software interface packages
+<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/Images/07-eyes_front.png" alt="RobotEyes.jpg" width="128" height="64" />
 
 #### Speech.py
 - Takes text input and converts it to voice(audio) output to the speaker
@@ -95,13 +109,4 @@ The whole program runs on queries and multithreading concepts are implemented wi
 - Embedded_assistant_pb2_grpc
 - Tenacity
 
-## Installation
-
-Execute these commands in the project directory terminal.
-
-```bash
-  source venv/bin/activate
-  python3 Image_Stitching.py 
-```
-Go [here](./input/p4/results) for more intermediate results for all image pairs
 
