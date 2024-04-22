@@ -1,5 +1,5 @@
 # Personal-Pet-Robot 
-<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/Images/07-eyes_front.png" alt="RobotEyes.jpg" width="128" height="64" /> Its Name is ```BAYMAX``` <img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/SyEDIFinalImplementation.png" alt="FinalImplementation.jpg" />
+<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/Images/07-eyes_front.png" alt="RobotEyes.jpg" width="128" height="64" /> Its Name is ```BAYMAX``` <img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/SyEDIFinalImplementation.png" alt="FinalImplementation.jpg" width="40%" height="40%"/>
 
 Project Area : Artificial Intelligence, Virtual Assistant, Prompt Engineering, Multi-threading, Raspberry Pi
 
@@ -25,7 +25,7 @@ Overall, this project demonstrates the potential of using Raspberry Pi to build 
 The whole program runs on queries and multithreading concepts are implemented within its modules with package functions being called in the main function. Altogether there are 12 packages whose descriptions are as follows:
 
 ### Hardware interface packages
-<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/SyEDIArch.png" alt="ProjectArchitechture.jpg" width="128" height="64" />
+<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/SyEDIArch.png" alt="ProjectArchitechture.jpg" width="40%" height="40%" />
 
 #### Display.py
 - Used to interface and perform custom animation on the old display attached.
@@ -37,7 +37,7 @@ The whole program runs on queries and multithreading concepts are implemented wi
 - This is the main function the initiates the robot and calls all the necessary functions too that they work together harmoniously.
 
 ### Software interface packages
-<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/SyEDIFlow.png" alt="ProjectFlow.jpg" width="128" height="64" />
+<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/SyEDIFlow.png" alt="ProjectFlow.jpg" width="40%" height="40%" />
 
 #### Speech.py
 - Takes text input and converts it to voice(audio) output to the speaker
