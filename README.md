@@ -1,6 +1,7 @@
 # Personal-Pet-Robot
 
-<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/Images/07-eyes_front.png" alt="RobotEyes.jpg" width="234" height="416" /> Robot Eyes
+<img src="https://github.com/Pglol03/Personal-Pet-Robot/blob/master/Images/07-eyes_front.png" alt="RobotEyes.jpg" width="100%" height="100%" /> 
+[Robot Eyes]
 
 Project Area : Artificial Intelligence, Virtual Assistant, Prompt Engineering, Multi-threading
 
